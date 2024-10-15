@@ -24,3 +24,80 @@ margin-top: 0;
 margin-bottom: 0;
 
 }
+
+body{
+    display: flex;
+    width:3500px;
+
+}
+
+.box{
+width: 200px;
+height: 150px;
+border: 1 solid black;
+}
+
+
+
+.banderas{
+display: flex;
+justify-content: space-around;
+width: 1500px;
+gap: 30px;
+
+}
+
+.bandera1{
+background-image:linear-gradient(red 33% , blue 33% 65% , yellow 33%);
+
+}
+
+.bandera2{
+background-image:linear-gradient(to right, black 33%, yellow 33% 65%, red 33%);
+
+}
+
+.bandera3{
+background-image: linear-gradient(#76AADB 20% 35%, white 35% 40%, black 40%  60%, white 50% 65%,#76AADB 60% 100% );
+
+}
+
+.bandera4{
+background-image:linear-gradient(145deg, green 0 40%, yellow 40% 60%, red 60% 100%);
+
+}
+
+.bandera5{
+background-image: linear-gradient(-245deg, blue 0 20%, yellow 20% 40%, red 40% 60%, white 60% 80%, green 80% 100% );
+
+}
+
+.bandera6{
+background-image:linear-gradient( to right, green 0 40%, transparent 40% 100%), linear-gradient(yellow 0% 50%, red 50% 100%);
+
+ 
+
+
+}
+
+.circulo1{
+background-image: radial-gradient(circle, red 0% 25%, white 25% 100%);
+border: 1px solid black;
+}
+
+.circulo2{
+background-image: radial-gradient(circle at 75px, yellow 0% 25%, steelblue 25% 100% );
+}
+
+.circulo3{
+background-image: radial-gradient(white 0 25%, blue 25% 100%),
+linear-gradient(red 0 35%, transparent  35% 75%, red 75% 100%) radial-gradient(white 0 25%, transparent 25% 100%)
+
+}
+
+.circulo4{
+width: 350px ;
+height: 250px;
+background-image: radial-gradient(circle at bottom, white 0 15%, red 15% 25%, orange 25% 35%, yellow 35% 45%, green 45% 55%, blue 55%  65%, purple 65% 75%, pink 75% 80%, transparent 80% 100%);
+
+}
